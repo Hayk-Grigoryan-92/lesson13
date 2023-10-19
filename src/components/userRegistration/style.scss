@@ -1,0 +1,59 @@
+.formContainer{
+    max-width: 600px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    gap: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    button{
+        width: 120px;
+        height: 40px;
+        background-color: rgb(169, 239, 248);
+        border-radius: 5px;
+
+        &:hover{
+            background-color: rgb(240, 249, 251);
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+
+    .userForm{
+        
+        width: 80%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+       
+        label{
+            width: 100%;
+
+            input{
+                width: 100%;
+                height: 40px;
+                text-align: center;
+                cursor:pointer;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.errorInput{
+    border: 1px solid red;
+}
+
+.errorText{
+    font-size: 18px;
+    color: red;
+    text-align: center;
+    margin: 5px;
+}

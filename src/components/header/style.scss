@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+    .navList{
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+        list-style: none;
+        
+
+        li{
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: rgb(107, 11, 107);
+            color: white;
+
+            &:hover{
+                background-color: rgb(248, 143, 248);
+                color: black;
+            }
+        }
+    }
+}
